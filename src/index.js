@@ -1,13 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './components/header/Header';
+import Hero from './components/hero/Hero';
+import Intro from './components/intro/Intro';
+import Weddings from './components/weddings/Weddings';
+import Footer from './components/footer/Footer';
+import CardsTeam from './components/cards/CardsTeam';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Header/>
+    <Hero/>
+    <Intro/>
+    <Weddings/>
+    <CardsTeam/>
+
+
+    <Footer/>
+    {/* <App /> */}
   </React.StrictMode>
 );
 
